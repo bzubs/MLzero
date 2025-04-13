@@ -1,0 +1,4 @@
+Python Libraries for ML are a must for implementing these in your environment 
+Numpy- for array calculations
+Matplotlib- for plotting curves and visaulization
+sk-learn= for generating toy datasets in some case
