@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import make_blobs
-from k_means import Kmeans
+from clusterers.k_means import Kmeans
 
 # Generate toy dataset
 centroids = [(-5, -5), (5, 5), (1, 1)]

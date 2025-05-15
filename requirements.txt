@@ -1,4 +1,4 @@
-Python Libraries for ML are a must for implementing these in your environment 
-Numpy- for array calculations
-Matplotlib- for plotting curves and visaulization
-sk-learn= for generating toy datasets in some case
+# Updated requirements for the ML project
+numpy  # For array calculations
+matplotlib  # For plotting curves and visualization
+scikit-learn  # For generating toy datasets and ML utilities

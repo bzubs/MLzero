@@ -19,11 +19,10 @@ class Kmeans:
             X_color = self.assign_centroids(X)
             new_centroids = self.move_centroids(X, X_color)
 
-            if np.allclose(old_centroids, new_centroids):
-                self.centroids=new_centroids
+            if old_centroids is not None and np.allclose(old_centroids, new_centroids):
+                self.centroids = new_centroids
                 self.centroid_history.append(new_centroids)
                 break
-
 
             old_centroids = new_centroids
             self.centroids = new_centroids
@@ -38,6 +37,8 @@ class Kmeans:
 
     def assign_centroids(self, X):
         X_color = []
+        if self.centroids is None:
+            raise ValueError("Centroids have not been initialized. Call set_initial first.")
         for row in X:
             distances = []
             for centroid in self.centroids:
