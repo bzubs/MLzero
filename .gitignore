@@ -24,8 +24,10 @@ build/
 dist/
 *.egg-info/
 
-# Windows system files
-Thumbs.db
 
 # VS Code settings
 .vscode/
+
+setup.py
+MANIFEST.in
+pyproject.toml

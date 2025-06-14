@@ -1,4 +1,2 @@
-# Updated requirements for the ML project
 numpy  # For array calculations
-matplotlib  # For plotting curves and visualization
-scikit-learn  # For generating toy datasets and ML utilities
+matplotlib  # For plotting curves and visualization\
